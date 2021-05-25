@@ -1,0 +1,81 @@
+@media only screen and (max-width: 800px) {
+.banner{height: 400px}
+.container .darkner{height: 150%;}
+.container div{top: 25%;}
+.container .cap{top: 40%;}
+main{
+	transform: translateY(-50px);
+	flex-direction: column;
+	height: auto;
+}
+main content{
+	width: 80%;
+	height: 300px;
+	top: auto;
+	left: 50%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	transform: translate(10%,-10%);
+	padding-top: 120px;
+}
+main .c2{transform: translate(10%,-10%);}
+main .about{
+	width: 80%;
+	transform: translate(10%,-50%);
+	font-size: 24px;
+	padding-top: 80px;
+}
+main .about div{
+	width: 130px;
+	height: 130px;
+	transform: translate(-50%,-80%);
+}
+}
+
+
+@media only screen and (max-width: 660px) {
+.banner{height: 300px}
+.container div{font-size: 36px;}
+.container .cap{font-size: 14px;top: 37%;}
+main content{height: 180px;padding-top: 110px;font-size: 26px}
+main .c3{font-size: 22px}
+main .about{transform: translate(10%,-30%);padding-top: 60px;font-size: 22px;}
+}
+
+
+
+@media only screen and (max-width: 450px) {
+nav{
+	height: 40px;
+}
+nav a{
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 6px;
+	padding-right: 4px;
+	height: 70%;
+}
+.banner{
+	height: 300px;
+	width: auto;
+}
+.container .darkner{height: 150%;opacity: 0.6;}
+.container div{line-height: 38px;}
+.container .cap{top: 40%}
+main{transform: translateY(-10%);}
+main content{height: 150px;padding-top: 80px;transform: translate(10%,-25%);}
+main .c2{transform: translate(10%,-25%);}
+main content div{width: 50px;height: 50px;}
+main .about{
+	width: 80%;
+	transform: translate(10%,-70%);
+	font-size: 20px;
+}
+main .about samp{font-size: 18px}
+main .about #samp2{font-size: 14px}
+main .about div{
+	width: 120px;
+	height: 120px;
+	transform: translate(-50%,-80%);
+}
+}
