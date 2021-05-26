@@ -32,19 +32,39 @@ main .about div{
 }
 main .work{
 	padding-top: 20px;
-	transform: translate(10%,-30%);
+	transform: translate(7.5%,-30%);
 }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 660px) {
 .banner{height: 300px}
 .container div{font-size: 36px;}
 .container .cap{font-size: 14px;top: 37%;}
-main content{height: 180px;padding-top: 110px;font-size: 26px}
+main content{
+	height: 180px;
+	padding-top: 110px;
+	font-size: 26px
+}
 main .c3{font-size: 22px}
-main .about{transform: translate(10%,-30%);padding-top: 60px;font-size: 22px;}
+main .about{
+	transform: translate(10%,-30%);
+	padding-top: 60px;
+	font-size: 22px;
+}
 main .work{
+	transform: translate(7%,-30%);
 	padding-top: 20px;
 	font-size: 18px;
 	height: 250px;
@@ -53,10 +73,18 @@ main .work{
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 450px) {
-nav{
-	height: 40px;
-}
+nav{height: 40px;}
 nav a{
 	font-size: 15px;
 	padding-top: 10px;
@@ -89,5 +117,6 @@ main .about div{
 }
 main .work{
 	padding-top: 20px;
+	transform: translate(7.5%,-30%);
 }
 }

@@ -4,7 +4,7 @@ body{
 	background: rgb(209, 213, 219);
 	color: black;
 	font-size: 32px;
-	font-family: Nunito;
+	font-family: Nunito,sans-serif;
 	margin: 0;
 	margin-bottom: 50px;
 	display: flex;
@@ -38,7 +38,7 @@ nav a{
 }
 .container div{
 	position: absolute;
-	font-family: Nunito;
+	font-family: Nunito,sans-serif;
 	color: white;
 	font-size: 48px;
 	font-weight: 600;
@@ -76,6 +76,7 @@ main content{
 	transform: translateY(-10%);
 	text-align: center;
 	padding-top: 110px;
+	box-shadow: 3px 3px 15px black;
 }
 main .c3{font-size: 26px}
 main .c2{transform: translateY(-30%);}
@@ -98,6 +99,7 @@ main .about{
 	text-align: center;
 	padding-top: 150px;
 	transform: translate(30%,-60%);
+	box-shadow: 3px 3px 15px black;
 }
 main .about samp{
 	font-size: 24px;
@@ -119,10 +121,14 @@ main .about div{
 	background-size: cover;
 }
 main .work{
+	color: gray;
 	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	font-size: 24px;
 	height: 350px;
 	transform: translateY(-30%);
+	box-shadow: 3px 3px 15px black;
 }
 main .work div{
 	width: 100%;
@@ -138,3 +144,4 @@ main .work div{
 	transform: translateY(-110%);
 	position: absolute;
 }
+h3{color: black}

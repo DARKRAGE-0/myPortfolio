@@ -1,0 +1,53 @@
+main .email{
+	padding-top: 30px;
+	margin-bottom: 1.5%;
+	color: #FB4848;
+	font-weight: 700;
+	height: 200px;
+}
+main .discord{
+	padding-top: 30px;
+	color: #5966F1;
+	font-weight: 700;
+	margin-bottom: 1.5%;
+}
+main .insta{
+	padding-top: 30px;
+	color: #DB418A;
+	font-weight: 700;
+	margin-bottom: 1.5%;
+}
+main .fiverr{
+	padding-top: 30px;
+	color: #0199FF;
+	font-weight: 700;
+	margin-bottom: 1.5%;
+	height: 200px;
+}
+main .github{
+	padding-top: 30px;
+	color: #36393F;
+	font-weight: 700;
+	margin-bottom: 1.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+body{
+	margin-bottom: 20px;
+}
+main .email,.discord,.fiverr,.insta,.github{
+	height: 150px;
+}
+
+main .fiverr{height: 150px;}
+}
