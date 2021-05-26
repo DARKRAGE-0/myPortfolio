@@ -9,6 +9,7 @@ body{
 	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
+	user-select: none;
 }
 nav{
 	background: white;
@@ -107,6 +108,10 @@ main .about samp{
 }
 main .about #samp2{
 	font-size: 18px;
+	color: gray;
+}
+main .about #samp3{
+	font-size: 16px;
 	color: gray;
 }
 main .about div{
